@@ -11,6 +11,7 @@ class App extends Component {
         <Background />
         <Navigation />
         <header className="App-header">
+        <h1>This is a test</h1>
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
@@ -24,6 +25,11 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <section>
+        <footer>
+          (C) 2018 Daniel Abbott
+        </footer>
+        </section>
       </div>
     );
   }

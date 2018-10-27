@@ -10,6 +10,7 @@ body {
   font-family: "visitor1", monospace;
   color: white;
   text-shadow: 2px 2px black;
+  overflow-x: hidden;
 }
 
 section {
@@ -49,4 +50,8 @@ ul, menu, dir {
 code {
   /* font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace; */
   font-family: "visitor1", monospace;
+}
+
+footer {
+  text-align: right;
 }

@@ -3,7 +3,7 @@
   top: 0;
   display: flex;
   flex-flow: column nowrap;
-  font-size: 2em;
+  font-size: calc(10px + 2vmin);
   position: fixed;
   text-align: right;
   /* height: 100vh; */
