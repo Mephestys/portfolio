@@ -8,6 +8,42 @@ body {
   margin: 0;
   padding: 0;
   font-family: "visitor1", monospace;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+section {
+  display: block;
+  background-color: rgba(0, 80, 102, 0.3);
+}
+
+section:hover {
+  background: rgba(0, 80, 102, 0.5);
+}
+
+li {
+  display: block;
+}
+
+a:-webkit-any-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:-webkit-any-link:hover {
+  color: #61dafb;
+  text-decoration: underline;
+}
+
+ul, menu, dir {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
 }
 
 code {

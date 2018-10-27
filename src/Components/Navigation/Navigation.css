@@ -1,0 +1,28 @@
+.navigation {
+  right: 0;
+  top: 0;
+  display: flex;
+  flex-flow: column nowrap;
+  font-size: 2em;
+  position: fixed;
+  text-align: right;
+  /* height: 100vh; */
+  padding: 10px;
+  /* padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px; */
+  border: 1px solid white;
+  border-right: 0px;
+  border-top: 0px;
+  border-bottom-left-radius: 2em;
+  overflow: hidden;
+}
+
+.navigation-avatar-wrapper {
+  align-self: center;
+}
+
+.navigation-avatar {
+  max-height: 5em;
+  border-radius: 1em;
+}

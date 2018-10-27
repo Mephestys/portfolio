@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Background from './Components/Background/Background'
+import Navigation from './Components/Navigation/Navigation'
 import logo from './logo.svg';
 import './App.css';
 
@@ -8,6 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <Background />
+        <Navigation />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
