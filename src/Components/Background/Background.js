@@ -13,10 +13,9 @@ class Background extends Component {
     c.height = window.innerHeight;
     c.width = window.innerWidth;
 
-    let rainText = "▓▒░";
-    // let rainText = "01";
+    // let rainText = "▓▒░";
+    let rainText = "01";
 
-    // const font_size = 24;
     const font_size = 24;
     const columns = c.width / font_size;
 
@@ -26,7 +25,7 @@ class Background extends Component {
       drops[x] = 0;
 
     const draw = () => {
-      ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+      ctx.fillStyle = "rgba(0, 0, 0, 0.1)";
       ctx.fillRect(0, 0, c.width, c.height);
 
       ctx.fillStyle = "#005066";
