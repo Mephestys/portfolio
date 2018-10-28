@@ -5,8 +5,8 @@ import './Navigation.css'
 const Navigation = () => {
   return (
     <section className="navigation">
-      <span className="navigation-avatar-wrapper"><img className="navigation-avatar" src={Avatar} alt="" /></span>
-      <span>Daniel Abbott</span>
+      <div className="navigation-avatar-wrapper"><img className="navigation-avatar" src={Avatar} alt="" /></div>
+      <span className="navigation-avatar-name">Daniel Abbott</span>
       <nav>
         <ul>
           <li><a href="#">About</a>&lt;</li>

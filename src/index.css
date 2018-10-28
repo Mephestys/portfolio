@@ -15,12 +15,13 @@ body {
 
 section {
   display: block;
-  background-color: rgba(0, 80, 102, 0.3);
+  /* background-color: rgba(0, 80, 102, 0.3); */
+  background-color: rgba(0, 33, 43, 0.8);
 }
 
-section:hover {
+/* section:hover {
   background: rgba(0, 80, 102, 0.5);
-}
+} */
 
 li {
   display: block;
@@ -34,7 +35,8 @@ a:-webkit-any-link {
 
 a:-webkit-any-link:hover {
   color: #61dafb;
-  text-decoration: underline;
+  text-decoration: none;
+  /* text-shadow: none */
 }
 
 ul, menu, dir {
@@ -53,5 +55,8 @@ code {
 }
 
 footer {
-  text-align: right;
+  /* text-align: right; */
+  /* position: fixed; */
+  bottom: 0;
+  right: 0;
 }

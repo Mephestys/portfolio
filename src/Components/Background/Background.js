@@ -14,7 +14,9 @@ class Background extends Component {
     c.width = window.innerWidth;
 
     let rainText = "▓▒░";
+    // let rainText = "01";
 
+    // const font_size = 24;
     const font_size = 24;
     const columns = c.width / font_size;
 
@@ -28,7 +30,7 @@ class Background extends Component {
       ctx.fillRect(0, 0, c.width, c.height);
 
       ctx.fillStyle = "#005066";
-      ctx.font = font_size + "px arial";
+      ctx.font = font_size + "px visitor1";
 
       for (let i = 0; i < drops.length; i++) {
         const text = rainText[Math.floor(Math.random() * rainText.length)];
