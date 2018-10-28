@@ -13,8 +13,8 @@ class Background extends Component {
     c.height = window.innerHeight;
     c.width = window.innerWidth;
 
-    // let rainText = "▓▒░";
-    let rainText = "01";
+    let rainText = "▓▒░";
+    // let rainText = "01";
 
     const font_size = 24;
     const columns = c.width / font_size;

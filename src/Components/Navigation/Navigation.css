@@ -25,10 +25,27 @@
 
 .navigation-avatar {
   max-height: 5em;
-  border-radius: 1em;
+  /* border-radius: 1em; */
 }
 
 .navigation-avatar-name {
   font-size: calc(10px + 1vmin);
   text-align: center;
+}
+
+.navigation:hover {
+  background: rgba(0, 80, 102, 1);
+}
+
+.navigation-internal-links {
+  position: absolute;
+  right: 0;
+  padding-right: 4px;
+}
+
+.navigation-external-links {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  padding-right: 4px;
 }

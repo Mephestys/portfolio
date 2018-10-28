@@ -13,26 +13,22 @@ class App extends Component {
           <Navigation />
           <img className="App-banner" src={Banner} alt="" />
           <div className="App-content">
-          <section>
+          <section className='App-section'>
             <h1>About</h1>
-            <p>I like the one with the sand.</p>
+            <p>I don't have an elevator pitch yet, so here's some random text for your enjoyment.</p>
           </section>
-          <br />
-          <section>
+          <section className='App-section'>
             <h1>Projects</h1>
-            <p>I like the one with the sand.</p>
+            <p>Should I be a carousel or a collection of images which are also links, or something else?</p>
           </section>
-          <br />
-          <section>
+          <section className='App-section'>
             <h1>Skills</h1>
-            <p>I like the one with the sand.</p>
+            <p>Maybe draw in some neat icons or some crap like that.</p>
           </section>
-          <br />
-          <section>
+          <section className='App-section'>
             <h1>Contact</h1>
             <p>I like the one with the sand.</p>
           </section>
-          <br />
           </div>
         </div>
         <footer>
