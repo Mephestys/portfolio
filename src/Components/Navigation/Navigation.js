@@ -4,7 +4,7 @@ import './Navigation.css'
 
 const Navigation = () => {
   return (
-    <section className="navigation">
+    <div className="navigation">
       <div className="navigation-avatar-wrapper"><img className="navigation-avatar" src={Avatar} alt="" /></div>
       <span className="navigation-avatar-name">Daniel Abbott</span>
       <nav>
@@ -15,7 +15,7 @@ const Navigation = () => {
           <li><a href="#">Contact</a>&lt;</li>
         </ul>   
       </nav>
-    </section>
+    </div>
   )
 }
 
