@@ -15,15 +15,11 @@ class App extends Component {
           <div className="App-content">
             <section className='App-section'>
               <h1 id="About">About</h1>
-              <div className='App-section-contents'>
-                <p>I don't have an elevator pitch yet, so here's some random text for your enjoyment.</p>
-              </div>
+              <p>I don't have an elevator pitch yet, so here's some random text for your enjoyment.</p>
             </section>
             <section className='App-section'>
               <h1 id="Projects">Projects</h1>
-              <div className='App-section-contents'>
-                <p>Should I be a carousel or a collection of images which are also links, or something else?</p>
-              </div>
+              <p>Should I be a carousel or a collection of images which are also links, or something else?</p>
             </section>
             <section className='App-section'>
               <h1 id="Skills">Skills</h1>

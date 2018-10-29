@@ -1,13 +1,18 @@
 @font-face {
   font-family: "visitor1";
-  src: url("visitor1.ttf");
+  src: url("visitor1.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Apple2";
+  src: url("AppleII.ttf") format("truetype");
 }
 
 body {
   background: black;
   margin: 0;
   padding: 0;
-  font-family: "visitor1", monospace;
+  font-family: "visitor1";
   color: white;
   text-shadow: 2px 2px black;
   overflow-x: hidden;
@@ -35,6 +40,11 @@ section {
 
 li {
   display: block;
+}
+
+p {
+  font-family: "Apple2";
+  font-size: calc(8px + 1vmin);
 }
 
 a:-webkit-any-link {

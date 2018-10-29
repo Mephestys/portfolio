@@ -11,19 +11,13 @@
   width: 100%;
 }
 
-.App-content {
-  /* padding-left: 40px; */
+/* .App-content {
   padding-right: 20px;
-}
+} */
 
 .App-section {
   background-color: rgba(0, 33, 43, 1);
   padding-left: 40px;
-}
-
-.App-section-contents {
-  display: flex;
-  flex-flow: column nowrap;
 }
 
 .App-section:hover {
@@ -40,6 +34,8 @@
 .App-skills {
   display: flex;
   flex-flow: row nowrap;
+  font-family: "Apple2";
+  font-size: calc(8px + 1vmin);
 }
 
 .divider {
