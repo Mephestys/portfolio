@@ -12,14 +12,40 @@
 }
 
 .App-content {
+  /* padding-left: 40px; */
   padding-right: 20px;
 }
 
 .App-section {
   background-color: rgba(0, 33, 43, 1);
-  padding-left: 20px;
+  padding-left: 40px;
+}
+
+.App-section-contents {
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 .App-section:hover {
   background: rgba(0, 80, 102, 1);
 }
+
+.App-skills-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.App-skills {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.divider {
+  width: 20vmin;
+}
+
+/* .App-skills-split {
+  width: 50%;
+} */
