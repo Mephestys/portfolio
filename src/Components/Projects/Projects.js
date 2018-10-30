@@ -14,7 +14,7 @@ const projectList = {
   },
   ShooterGame: {
     image: ShooterGameImage,
-    link: "https://github.com/Mephestys/ShooterGameProject",
+    link: "https://github.com/daniel-abbott/ShooterGameProject",
     description: "An in-development, unnamed top-down shooter, being built in the Godot engine."
   }
 }
