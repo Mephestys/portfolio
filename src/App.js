@@ -25,29 +25,31 @@ class App extends Component {
             </section>
             <section className='App-section'>
               <h1 id="Skills">Skills</h1>
+              <h4>Full Stack Web Developer</h4>
               <div className='App-skills'>
                 <div className='App-skills-split'>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
+                  <li>HTML/CSS/JS</li>
                   <li>React</li>
-                  <li>Node.js</li>
+                  <li>Redux</li>
+                  <li>NodeJS</li>
+                  <li>Express</li>
                 </div>
                 <div className='App-skills-split'>
-                  <li>Express</li>
                   <li>MongoDB</li>
+                  <li>Mocha</li>
+                  <li>Chai</li>
                   <li>Python</li>
                   <li>Django</li>
-                  <li>GraphQL</li>
                 </div>
                 <div className='App-skills-split'>
+                  <li>GraphQL</li>
                   <li>REST</li>
-                  <li>Jest</li>
-                  <li>LESS</li>
-                  <li>Git</li>
+                  <li>Agile Workflow</li>
+                  <li>Git Workflow</li>
                   <li>CI</li>
                 </div>
               </div>
+              <p style={{ "textAlign": "center" }}>... and more!</p>
             </section>
             <section className='App-section'>
               <h1 id="Contact">Contact</h1>

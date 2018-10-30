@@ -13,7 +13,7 @@ const Contact = () => {
         <input name="number" placeholder="Number (optional)" type="tel" tabIndex="3"></input>
       </fieldset>
       <fieldset>
-        <textarea name="message" placeholder="Message" tabIndex="4" rows="8" cols="32" required></textarea>
+        <textarea name="message" placeholder="Message" tabIndex="4" rows="8" cols="24" required></textarea>
       </fieldset>
       <button name="submit" type="submit" data-submit="...Sending">Submit</button>
     </form>
