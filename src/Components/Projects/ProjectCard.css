@@ -23,6 +23,10 @@
   padding-right: 4px;
 }
 
+.ProjectCard-header {
+  text-align: center;
+}
+
 .ProjectCard-image {
   width: 256px;
   height: 256px;

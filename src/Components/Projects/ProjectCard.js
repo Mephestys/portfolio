@@ -7,7 +7,7 @@ const ProjectCard = (props) => {
     <a className="ProjectCard" href={link} rel="external noopener noreferrer" target="_blank">
       <img className="ProjectCard-image" src={image} alt="" />
       <span className="ProjectCard-details">
-        <h4>{title}</h4>
+        <h4 className="ProjectCard-header">{title}</h4>
         <p className="ProjectCard-content">{description}</p>
       </span>
     </a>
