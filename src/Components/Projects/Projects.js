@@ -16,7 +16,12 @@ const projectList = {
     image: ShooterGameImage,
     link: "https://github.com/daniel-abbott/ShooterGameProject",
     description: "An in-development, unnamed top-down shooter, being built in the Godot engine."
-  }
+  },
+  // Portfolio: {
+  //   image: "",
+  //   link: "https://github.com/daniel-abbott/portfolio",
+  //   description: "The very portfolio you're looking at. I'm thinking of calling it Cubic Cerulean."
+  // }
 }
 
 const Projects = () => {

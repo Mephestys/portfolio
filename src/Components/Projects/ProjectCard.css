@@ -35,6 +35,7 @@
 
 .ProjectCard-content {
   font-size: calc(2px + 1vmin);
+  text-align: left;
 }
 
 .ProjectCard-status {

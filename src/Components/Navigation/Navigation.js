@@ -1,6 +1,6 @@
 import React from 'react';
-import Avatar from '../../Images/avatar.png'
-import './Navigation.css'
+import Avatar from '../../Images/avatar.png';
+import './Navigation.css';
 
 const Navigation = () => {
   return (

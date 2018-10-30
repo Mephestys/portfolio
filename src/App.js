@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import Background from './Components/Background/Background';
 import Navigation from './Components/Navigation/Navigation';
+import MiniNav from "./Components/MiniNav/MiniNav";
 import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
-import Banner from './Images/banner.jpg';
+import Banner from './Images/banner.png';
 import './App.css';
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
         <div className="App">
           <Background />
           <Navigation />
+          <MiniNav />
           <img className="App-banner" src={Banner} alt="" />
           <div className="App-content">
             <section className='App-section'>
