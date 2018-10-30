@@ -22,20 +22,16 @@
   background: rgba(0, 80, 102, 1);
 }
 
-.App-skills-wrapper {
-  display: flex;
-  flex-flow: row nowrap;
-  width: 100%;
-  justify-content: center;
-  padding-bottom: 1vmin;
-}
-
 .App-skills {
   display: flex;
   flex-flow: row wrap;
   font-family: "Apple2";
   font-size: calc(8px + 1vmin);
   justify-content: space-evenly;
+}
+
+.App-skills-split {
+  padding-bottom: 2vmin;
 }
 
 @media screen and (max-width: 784px) {
