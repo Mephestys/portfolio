@@ -16,7 +16,7 @@ class App extends Component {
           <div className="App-content">
             <section className='App-section'>
               <h1 id="About">About</h1>
-              <p>I don't have an elevator pitch yet, so here's some random text for your enjoyment.</p>
+              <p>My name is Daniel Abbott, and I'm a software developer.</p>
             </section>
             <section className='App-section'>
               <h1 id="Projects">Projects</h1>
