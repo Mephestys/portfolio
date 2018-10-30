@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 import "./Projects.css";
 
 import QuizzerImage from "../../Images/Quizzer.PNG";
-import TestImage from "../../Images/avatar.jpg";
+import ShooterGameImage from "../../Images/shootergame.gif";
 
 const projectList = {
   Quizzer: {
@@ -12,10 +12,10 @@ const projectList = {
     link: "https://quizzer.rocks/",
     description: "A simple web application for teachers to create quizzes and distribute them to students."
   },
-  Test: {
-    image: TestImage,
-    link: "https://google.com/",
-    description: "Test"
+  ShooterGame: {
+    image: ShooterGameImage,
+    link: "https://github.com/Mephestys/ShooterGameProject",
+    description: "An in-development, unnamed top-down shooter, being built in the Godot engine."
   }
 }
 
