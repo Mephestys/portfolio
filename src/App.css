@@ -27,7 +27,7 @@
   flex-flow: row wrap;
   font-family: "Apple2";
   font-size: calc(8px + 1vmin);
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .App-skills-split {
