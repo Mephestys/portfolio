@@ -3,7 +3,7 @@
   flex-flow: column nowrap;
   font-size: calc(10px + 2vmin);
   width: 80%;
-  background-color: rgba(0, 33, 43, 0.8);
+  background-color: rgba(0, 33, 43, 0.4);
   min-height: 100vh;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .App-section {
-  background-color: rgba(0, 33, 43, 1);
+  background-color: rgba(0, 33, 43, 0.8);
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 1vmin;
@@ -38,12 +38,17 @@
   justify-content: space-evenly;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 784px) {
   .App {
     width: 100%;
   }
 
   .App-section {
+    background-color: rgba(0, 33, 43, 0.8);
     text-align: center;
+  }
+
+  .App-section:hover {
+    background: rgba(0, 33, 43, 0.8);
   }
 }
