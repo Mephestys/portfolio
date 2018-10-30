@@ -1,11 +1,11 @@
 import React from 'react';
-import Avatar from '../../Images/avatar.jpg'
+import Avatar from '../../Images/avatar.png'
 import './Navigation.css'
 
 const Navigation = () => {
   return (
     <div className="navigation">
-      <div className="navigation-avatar-wrapper"><img className="navigation-avatar" src={Avatar} alt="" /></div>
+      <img className="navigation-avatar" src={Avatar} alt="" />
       <span className="navigation-avatar-name">Daniel Abbott</span>
       <nav>
         <ul className="navigation-internal-links">
@@ -17,7 +17,7 @@ const Navigation = () => {
         <ul className="navigation-external-links">
           <li><a href="https://github.com/Mephestys" rel="external noopener noreferrer" target="_blank">GitHub</a>&lt;</li>
           <li><a href="https://www.linkedin.com/in/daniel-abbott-19a1a1137/" rel="external noopener noreferrer" target="_blank">LinkedIn</a>&lt;</li>
-          <li><a href="mailto:fake@fake.com">Email</a>&lt;</li>
+          {/* <li><a href="mailto:fake@fake.com">Email</a>&lt;</li> */}
         </ul>
       </nav>
     </div>

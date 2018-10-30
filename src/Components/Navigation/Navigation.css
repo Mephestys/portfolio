@@ -1,41 +1,31 @@
 .navigation {
+  position: fixed;
   right: 0;
   top: 0;
   display: flex;
   flex-flow: column nowrap;
-  font-size: calc(10px + 2vmin);
-  position: fixed;
   text-align: right;
+  font-size: 28px;
+  /* font-size: 22px; */
   height: 100vh;
-  /* padding: 10px; */
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-right: 10px;
-  /* border: 1px solid white; */
-  border-right: 0px;
-  border-top: 0px;
-  /* border-bottom-left-radius: 2em; */
+  width: 156px;
   overflow: hidden;
   background-color: rgba(0, 33, 43, 1);
-}
-
-.navigation-avatar-wrapper {
-  align-self: center;
-}
-
-.navigation-avatar {
-  max-height: 5em;
-  /* border-radius: 1em; */
-}
-
-.navigation-avatar-name {
-  font-size: calc(10px + 1vmin);
-  text-align: center;
 }
 
 .navigation:hover {
   background: rgba(0, 80, 102, 1);
 }
+
+.navigation-avatar {
+  width: 100%;
+}
+
+.navigation-avatar-name {
+  font-size: 18px;
+  text-align: center;
+}
+
 
 .navigation-internal-links {
   position: absolute;
