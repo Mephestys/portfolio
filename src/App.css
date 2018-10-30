@@ -18,6 +18,7 @@
 .App-section {
   background-color: rgba(0, 33, 43, 1);
   padding-left: 40px;
+  padding-bottom: 1vmin;
 }
 
 .App-section:hover {
@@ -29,6 +30,7 @@
   flex-flow: row nowrap;
   width: 100%;
   justify-content: center;
+  padding-bottom: 1vmin;
 }
 
 .App-skills {
@@ -39,7 +41,7 @@
 }
 
 .divider {
-  width: 20vmin;
+  width: 12vmin;
 }
 
 /* .App-skills-split {

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Background from './Components/Background/Background';
 import Navigation from './Components/Navigation/Navigation';
+import Contact from './Components/Contact/Contact';
 import Banner from './Images/banner.jpg';
 import './App.css';
 
@@ -26,26 +27,34 @@ class App extends Component {
               <div className='App-skills-wrapper'>
                 <div className='App-skills'>
                   <div className='App-skills-split'>
-                    <li>HTML/CSS/JS</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
                     <li>React</li>
                     <li>Node.js</li>
-                    <li>Express</li>
-                    <li>Git</li>
                   </div>
                   <div className='divider' />
                   <div className='App-skills-split'>
+                    <li>Express</li>
                     <li>MongoDB</li>
-                    <li>Django</li>
                     <li>Python</li>
+                    <li>Django</li>
                     <li>GraphQL</li>
+                  </div>
+                  <div className='divider' />
+                  <div className='App-skills-split'>
                     <li>REST</li>
+                    <li>Jest</li>
+                    <li>LESS</li>
+                    <li>Git</li>
+                    <li>Something</li>
                   </div>
                 </div>
               </div>
             </section>
             <section className='App-section'>
               <h1 id="Contact">Contact</h1>
-              <p>I like the one with the sand.</p>
+              <Contact />
             </section>
           </div>
         </div>
