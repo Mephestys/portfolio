@@ -15,9 +15,9 @@ const Navigation = () => {
           <li><a href="#Contact">Contact</a>&lt;</li>
         </ul>
         <ul className="navigation-external-links">
-          <li><a href="https://github.com/Mephestys" rel="external noopener noreferrer" target="_blank">GitHub</a>&lt;</li>
+          <li><a href="https://github.com/daniel-abbott" rel="external noopener noreferrer" target="_blank">GitHub</a>&lt;</li>
           <li><a href="https://www.linkedin.com/in/daniel-abbott-19a1a1137/" rel="external noopener noreferrer" target="_blank">LinkedIn</a>&lt;</li>
-          {/* <li><a href="mailto:fake@fake.com">Email</a>&lt;</li> */}
+          <li><a href="mailto:danielabbott@daniel-abbott.com">Email</a>&lt;</li>
         </ul>
       </nav>
     </div>
