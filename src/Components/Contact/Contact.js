@@ -20,7 +20,15 @@ class Contact extends Component {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", ...this.state })
     })
-      .then(() => alert("Successfully sent."))
+      .then(() => {
+        alert("Successfully sent.");
+        this.setState({
+          name: "",
+          email: "",
+          number: "",
+          message: ""
+        })
+      })
       .catch(error => alert(error));
 
     event.preventDefault();
