@@ -25,31 +25,27 @@ class App extends Component {
             </section>
             <section className='App-section'>
               <h1 id="Skills">Skills</h1>
-              <div className='App-skills-wrapper'>
-                <div className='App-skills'>
-                  <div className='App-skills-split'>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                    <li>Node.js</li>
-                  </div>
-                  <div className='divider' />
-                  <div className='App-skills-split'>
-                    <li>Express</li>
-                    <li>MongoDB</li>
-                    <li>Python</li>
-                    <li>Django</li>
-                    <li>GraphQL</li>
-                  </div>
-                  <div className='divider' />
-                  <div className='App-skills-split'>
-                    <li>REST</li>
-                    <li>Jest</li>
-                    <li>LESS</li>
-                    <li>Git</li>
-                    <li>CI</li>
-                  </div>
+              <div className='App-skills'>
+                <div className='App-skills-split'>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>React</li>
+                  <li>Node.js</li>
+                </div>
+                <div className='App-skills-split'>
+                  <li>Express</li>
+                  <li>MongoDB</li>
+                  <li>Python</li>
+                  <li>Django</li>
+                  <li>GraphQL</li>
+                </div>
+                <div className='App-skills-split'>
+                  <li>REST</li>
+                  <li>Jest</li>
+                  <li>LESS</li>
+                  <li>Git</li>
+                  <li>CI</li>
                 </div>
               </div>
             </section>
