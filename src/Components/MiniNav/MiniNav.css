@@ -5,7 +5,7 @@
   flex-flow: row nowrap;
   justify-content: space-between;
   /* text-align: right; */
-  font-size: calc(24px + 1vmin);
+  font-size: calc(30px + 1vmin);
   height: 32px;
   width: 100%;
   overflow: hidden;
