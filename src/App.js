@@ -8,6 +8,11 @@ import Banner from './Images/banner.png';
 import './App.css';
 
 class App extends Component {
+
+  componentDidMount = () => {
+    console.log("%cLike what you see? %cGrab the source: https://github.com/daniel-abbott/portfolio", "background-color: rgb(0, 33, 43); color: white; font-family: monospace;", "background-color: rgb(0, 33, 43); color: #61dafb; font-family: monospace;");
+  }
+
   render() {
     return (
       <div>
