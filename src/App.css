@@ -5,6 +5,7 @@
   width: 80%;
   background-color: rgba(0, 33, 43, 0.4);
   min-height: 100vh;
+  line-height: 1.75rem;
 }
 
 .App-banner {
@@ -15,7 +16,8 @@
   background-color: rgba(0, 33, 43, 0.8);
   padding-left: 40px;
   padding-right: 40px;
-  padding-bottom: 1vmin;
+  padding-bottom: 1.75rem;
+  margin-bottom: 1.75rem;
 }
 
 .App-section:hover {
@@ -26,7 +28,7 @@
   display: flex;
   flex-flow: row wrap;
   font-family: "Apple2";
-  font-size: calc(8px + 1vmin);
+  font-size: 1rem;
   justify-content: space-around;
 }
 
@@ -47,5 +49,14 @@
 
   .App-section:hover {
     background: rgba(0, 33, 43, 0.8);
+  }
+}
+
+@media screen and (max-width: 686px) {
+  .App-skills {
+    display: block;
+  }
+  .App-skills-split {
+    text-align: center;
   }
 }

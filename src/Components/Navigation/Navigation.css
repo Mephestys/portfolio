@@ -45,3 +45,13 @@
     display: none;
   }
 }
+
+@media screen and (max-height: 408px) {
+  .navigation-internal-links {
+    display: none;
+  }
+
+  .navigation-external-links {
+    bottom: unset;
+  }
+}

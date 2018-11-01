@@ -25,6 +25,7 @@
 
 .ProjectCard-header {
   text-align: center;
+  font-size: 32px;
 }
 
 .ProjectCard-image {
@@ -34,7 +35,7 @@
 }
 
 .ProjectCard-content {
-  font-size: calc(2px + 1vmin);
+  font-size: 0.8rem;
   text-align: left;
 }
 

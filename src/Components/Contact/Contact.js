@@ -51,7 +51,7 @@ class Contact extends Component {
           <input name="number" value={number} placeholder="Number (optional)" type="tel" onChange={this.handleChange} tabIndex="3"></input>
         </fieldset>
         <fieldset>
-          <textarea name="message" value={message} placeholder="Message" onChange={this.handleChange} tabIndex="4" rows="8" cols="24" required></textarea>
+          <textarea name="message" value={message} placeholder="Message" onChange={this.handleChange} tabIndex="4" required></textarea>
         </fieldset>
         <button name="submit" type="submit">Submit</button>
       </form>
