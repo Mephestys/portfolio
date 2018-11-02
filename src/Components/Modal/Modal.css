@@ -50,8 +50,6 @@
   background-color: rgb(0, 20, 25);
   overflow-y: auto;
   overflow-x: hidden;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
   width: 95%;
   height: 90%;
   white-space: pre-line;
