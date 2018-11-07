@@ -106,8 +106,7 @@ code {
 textarea, input {
   border: none;
   font-family: "BodyFont";
-  /* font-size: calc(10px + 1vmin); */
-  font-size: 2rem;
+  font-size: calc(1.4rem + 1vmin);
   background-color: rgb(0, 20, 25);
   color: #61dafb;
 }
