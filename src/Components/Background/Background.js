@@ -29,7 +29,7 @@ class Background extends Component {
       ctx.fillRect(0, 0, c.width, c.height);
 
       ctx.fillStyle = "#005066";
-      ctx.font = font_size + "px visitor1";
+      ctx.font = font_size + "px HeaderFont";
 
       for (let i = 0; i < drops.length; i++) {
         const text = rainText[Math.floor(Math.random() * rainText.length)];

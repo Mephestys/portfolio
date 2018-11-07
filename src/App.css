@@ -27,8 +27,8 @@
 .App-skills {
   display: flex;
   flex-flow: row wrap;
-  font-family: "Apple2";
-  font-size: 1rem;
+  font-family: "BodyFont";
+  font-size: 2rem;
   justify-content: space-around;
 }
 

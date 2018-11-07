@@ -21,7 +21,7 @@ const projectList = {
     repoLink: "https://github.com/daniel-abbott/ShooterGameProject",
     liveLink: "",
     description: "An in-development, unnamed top-down shooter, being built in the Godot engine.",
-    longDescription: "This is a top-down twin-stick shooter I began work on, inspired somewhat by the old Alien Breed games. Currently very much a work-in-progress with effectively no art (as I can't draw), though it currently features: twin-stick movement and shooting, simple enemy 'AI' which moves towards the player relentlessly, colored 2D lighting and shadows, line-of-sight using shadowmaps, and no way to actually win yet.\n\nPlease note that there is no live deploy or compiled binaries available at this time, though all you need is a copy of the Godot engine to try it out!",
+    longDescription: "This is a top-down twin-stick shooter I began work on, inspired somewhat by the old Alien Breed games. Very much a work-in-progress with placeholder art, though it currently features: twin-stick movement and shooting, simple enemy 'AI' which moves towards the player relentlessly, colored 2D lighting and shadows, line-of-sight using shadowmaps, and no way to actually win yet.\n\nPlease note that there is no live deploy or compiled binaries available at this time, though all you need is a copy of the Godot engine to try it out!",
     status: "Work in progress"
   },
   "Lambda Notes": {
