@@ -24,7 +24,7 @@ class App extends Component {
           <div className="App-content">
             <section className='App-section'>
               <h1 id="About">About</h1>
-              <p>My name is Daniel Abbott, and I like creating software.</p>
+              <p>My name is Daniel Abbott, and I am a full-stack web developer. I also have a hobby interest in game development.</p>
             </section>
             <section className='App-section'>
               <h1 id="Projects">Projects</h1>
@@ -42,18 +42,18 @@ class App extends Component {
                   <li>Express</li>
                 </div>
                 <div className='App-skills-split'>
-                  <li>MongoDB</li>
-                  <li>Mocha</li>
-                  <li>Chai</li>
+                  <li>SQLite</li>
+                  <li>PostgreSQL</li>
+                  <li>NoSQL</li>
                   <li>Python</li>
                   <li>Django</li>
                 </div>
                 <div className='App-skills-split'>
                   <li>GraphQL</li>
                   <li>REST</li>
-                  <li>Agile Workflow</li>
-                  <li>Git Workflow</li>
-                  <li>CI</li>
+                  <li>Mocha</li>
+                  <li>Chai</li>
+                  <li>Jest</li>
                 </div>
               </div>
               <p style={{ "textAlign": "center" }}>... and more!</p>

@@ -5,7 +5,12 @@
 
 @font-face {
   font-family: "BodyFont";
-  src: url("./Fonts/ccredalert.ttf") format("truetype");
+  src: url("./Fonts/FORCED SQUARE.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Icons";
+  src: url("./Fonts/fontawesome-webfont.ttf") format("truetype");
 }
 
 body {

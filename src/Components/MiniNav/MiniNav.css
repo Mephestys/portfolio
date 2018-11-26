@@ -6,7 +6,7 @@
   justify-content: space-between;
   /* text-align: right; */
   font-size: calc(30px + 1vmin);
-  height: 32px;
+  height: 48px;
   width: 100%;
   overflow: hidden;
   background-color: rgba(0, 33, 43, 1);
@@ -32,6 +32,8 @@
   display: flex;
   justify-content: space-around;
   margin: 0px;
+  padding-top: 10px;
+  font-family: "Icons";
 }
 
 @media screen and (max-width: 784px) {
