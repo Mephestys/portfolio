@@ -3,6 +3,7 @@ import Background from './Components/Background/Background';
 import Navigation from './Components/Navigation/Navigation';
 import MiniNav from "./Components/MiniNav/MiniNav";
 import Projects from './Components/Projects/Projects';
+import Contrib from './Components/Contrib/Contrib';
 import Contact from './Components/Contact/Contact';
 import Banner from './Images/banner.png';
 import './App.css';
@@ -31,6 +32,10 @@ class App extends Component {
               <Projects />
             </section>
             <section className='App-section'>
+              <h1 id="Contrib">Contributions</h1>
+              <Contrib />
+            </section>
+            <section className='App-section'>
               <h1 id="Skills">Skills</h1>
               <h4>Full Stack Web Developer</h4>
               <div className='App-skills'>
@@ -54,6 +59,21 @@ class App extends Component {
                   <li>Mocha</li>
                   <li>Chai</li>
                   <li>Jest</li>
+                </div>
+              </div>
+              <h4>GameDev</h4>
+              <div className='App-skills'>
+                <div className='App-skills-split'>
+                  <li>C</li>
+                  <li>Java</li>
+                </div>
+                <div className='App-skills-split'>
+                  <li>C++</li>
+                  <li>Godot</li>
+                </div>
+                <div className='App-skills-split'>
+                  <li>C#</li>
+                  <li>UE4</li>
                 </div>
               </div>
               <p style={{ "textAlign": "center" }}>... and more!</p>

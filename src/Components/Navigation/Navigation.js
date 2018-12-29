@@ -14,6 +14,7 @@ const Navigation = () => {
         <ul className="navigation-internal-links">
           <li><a href="#About">About</a>&lt;</li>
           <li><a href="#Projects">Projects</a>&lt;</li>
+          <li><a href="#Contrib">Contrib</a>&lt;</li>
           <li><a href="#Skills">Skills</a>&lt;</li>
           <li><a href="#Contact">Contact</a>&lt;</li>
         </ul>
