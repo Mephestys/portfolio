@@ -61,7 +61,7 @@ class App extends Component {
                   <li>Jest</li>
                 </div>
               </div>
-              <h4>GameDev</h4>
+              <h4>Software Developer</h4>
               <div className='App-skills'>
                 <div className='App-skills-split'>
                   <li>C</li>
